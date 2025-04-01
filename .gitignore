@@ -30,17 +30,17 @@
 
 # VS Code related
 /.vscode/
-/*.code-workspace
+#/*.code-workspace
 
-# Dataset files (excluding specific ones)
-/Datasets/**/*.yaml
-/Datasets/**/*.txt
-/Datasets/**/*.bag
-/Datasets/**/*.csv
-
-# Unignore specific files in Datasets
+/Datasets/*
 !/Datasets/record_d435i_data.sh
 !/Datasets/record_t265_data.sh
+!/Datasets/*/
+#*.yaml
+#*.txt
+*.bag
+#*.csv
+*.png
 
 # Third-party build directories
 /Thirdparty/DBoW2/build/
