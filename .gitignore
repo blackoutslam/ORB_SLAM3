@@ -1,11 +1,11 @@
 # Ignore all
-*
+#*
 
 # Unignore all with extensions
-!*.*
+#!*.*
 
 # Unignore all dirs
-!*/
+#!*/
 
 CMakeLists.txt.user
 CMakeLists_modified.txt
@@ -91,3 +91,20 @@ my_settings.txt
 borrar/*
 
 */ExecMean.txt
+
+*.png
+*.tar 
+*.zip
+# Ignore all executables
+*.exe
+*.EXE
+
+# Ignore Linux executables (files with executable permissions)
+# This will ignore any file that is executable, regardless of its extension
+**/*
+# Ignore everything in the Datasets directory
+/Datasets/*
+
+# Unignore specific files
+!/Datasets/record_d435i_data.sh
+!/Datasets/record_t265_data.sh
