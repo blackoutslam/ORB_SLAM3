@@ -105,6 +105,9 @@ borrar/*
 # Ignore everything in the Datasets directory
 /Datasets/*
 
-# Unignore specific files
+# Unignore the Datasets directory itself
+!/Datasets/
+
+# Unignore specific files in the Datasets directory
 !/Datasets/record_d435i_data.sh
 !/Datasets/record_t265_data.sh
