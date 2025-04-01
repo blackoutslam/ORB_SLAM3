@@ -29,7 +29,7 @@ ARCHIVE_PATH="$ARCHIVE_DIR/$FOLDER_NAME"
 mkdir -p "$DATASET_PATH/cam0" "$DATASET_PATH/cam1" "$DATASET_PATH/IMU"
 
 # Forward X11 display and authentication for sudo
-export DISPLAY=:0
+#export DISPLAY=:0
 export XAUTHORITY=/home/slam/.Xauthority
 
 # Run the recording executable and wait for user to stop it
